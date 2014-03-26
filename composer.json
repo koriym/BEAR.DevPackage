@@ -11,7 +11,7 @@
     "minimum-stability": "dev",
     "require": {
         "bear/ace": "1.*",
-        "classpreloader/classpreloader": "dev-wrap-namespace",
+        "classpreloader/classpreloader": "dev-master",
         "dg/adminer-custom": "1.*",
         "facebook/xhprof": "dev-master",
         "firephp/firephp-core": "*",
@@ -26,29 +26,6 @@
         {
             "type": "composer",
             "url": "http://packages.zendframework.com/"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "classpreloader/classpreloader",
-                "version": "dev-wrap-namespace",
-                "dist": {
-                    "url": "https://github.com/koriym/classpreloader/zipball/wrap-namespace",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/koriym/ClassPreloader.git",
-                    "type": "git",
-                    "reference": "wrap-namespace"
-                },
-                "require": {
-                    "symfony/console": ">2.0",
-                    "symfony/console": ">2.0",
-                    "symfony/filesystem": ">2.0",
-                    "symfony/finder": ">2.0",
-                    "nikic/php-parser": "*"
-                }
-            }
         }
     ]
 }
