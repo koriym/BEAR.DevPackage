@@ -21,7 +21,8 @@
         "printo/printo": "0.*",
         "zendframework/zend-log": "2.*",
         "zendframework/zend-db": "2.*",
-        "zendframework/zend-stdlib": "2.*"
+        "zendframework/zend-stdlib": "2.*",
+        "filp/whoops": "1.*"
     },
     "repositories": [
         {
