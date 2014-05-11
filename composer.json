@@ -1,6 +1,5 @@
 {
     "name": "bear/dev-package",
-    "type": "metapackage",
     "description": "dev-require packages for BEAR.Package",
     "license": "BSD-3-Clause",
     "authors": [
@@ -18,6 +17,7 @@
         "firephp/firephp-core": "0.*",
         "phpunit/phpunit": "3.7.*",
         "phpunit/dbunit": "1.3.*",
+        "printo/printo": "1.*@dev",
         "robmorgan/phinx": "0.*",
         "koriym/printo": "1.*@dev",
         "zendframework/zend-log": "2.*",
