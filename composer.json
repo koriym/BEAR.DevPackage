@@ -25,6 +25,13 @@
         "zendframework/zend-stdlib": "2.*",
         "filp/whoops": "1.*"
     },
+    "autoload": {
+        "files": [
+            "function/debuglib.php",
+            "function/e.php",
+            "function/p.php"
+        ]
+    },
     "repositories": [
         {
             "type": "composer",
