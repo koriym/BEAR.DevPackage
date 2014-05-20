@@ -27,9 +27,9 @@
     },
     "autoload": {
         "files": [
-            "function/debuglib.php",
-            "function/e.php",
-            "function/pgit .php"
+            "src/debuglib.php",
+            "src/e.php",
+            "src/p.php"
         ]
     },
     "repositories": [
