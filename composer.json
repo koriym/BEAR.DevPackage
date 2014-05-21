@@ -1,6 +1,5 @@
 {
     "name": "bear/dev-package",
-    "type": "metapackage",
     "description": "dev-require packages for BEAR.Package",
     "license": "BSD-3-Clause",
     "authors": [
