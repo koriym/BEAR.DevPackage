@@ -8,7 +8,6 @@
             "email": "akihito.koriyama@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "bear/ace": "~1.0",
         "classpreloader/classpreloader": "~1.0",
@@ -30,6 +29,14 @@
             "url": "http://packages.zendframework.com/"
         }
     ],
+    "autoload": {
+        "files": [
+            "src/debuglib.php",
+            "src/p.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": "true"
     "extra": {
         "branch-alias": {
             "dev-master": "0.2.x-dev"
