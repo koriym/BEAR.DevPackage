@@ -29,6 +29,14 @@
             "url": "http://packages.zendframework.com/"
         }
     ],
+    "autoload": {
+        "files": [
+            "src/debuglib.php",
+            "src/p.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": "true"
     "extra": {
         "branch-alias": {
             "dev-master": "0.2.x-dev"
